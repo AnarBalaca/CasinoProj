@@ -1,0 +1,56 @@
+.main{
+    margin: 30px;
+}
+
+.btn-form{
+    background-color:rgb(1, 21, 57) !important ;
+    padding: 20px;
+    border: none;
+}
+
+input{
+    background-color: rgb(1, 21, 57);
+    padding: 20px;
+    width: 40%;
+    color: white;
+}
+ ::placeholder{
+    color: white;
+ }
+
+ div{
+    margin-top: 10px;
+ }
+
+ textarea{
+    padding: 20px;
+    background-color:rgb(1, 21, 57) ;
+ }
+
+ .box{
+    margin-left: 80px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 5px;
+ }
+
+ .mini-box{
+    width: 300px;
+    height: 300px;
+    padding-top: 50px;
+    background-color:rgb(1, 21, 57) ;
+    border-radius: 10px;
+ }
+
+ .mini-box i{
+    color: white;
+    font-size: 90px;
+ }
+
+ .mini-box h4{
+    color: white;
+    margin-top: 10px;
+ }
+ .mini-box h5{
+    color: white;
+ }

@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("/images/casino-roulette-wheel-close-up-ai-generative.jpg"); 
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar{
+    top: 20px;
+ border-radius: 15px;
+ display: flex;
+ text-align: center;
+ background-color:rgb(1, 21, 57) !important;
+}
+
+.nav{
+    display: flex !important;
+    justify-content: space-around !important;
+}
+
+.form{
+    display: flex !important;;
+    justify-content: flex-end !important;
+}
+
+.logo{
+    width: 80px !important;
+    height: 50%;
+}
+
+
+.nav-link{
+    text-decoration: none !important;
+    color: black !important;
+    font-size: larger;
+}
+
+img{
+    width: 18rem !important;
+    height: 12rem;
+    background-position: center ;
+    background-size: cover;
+    transition: all 0.3s ease-in-out;
+    border-top-right-radius: 15px !important;
+    border-top-left-radius: 15px !important;
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+
+.main{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 5px;
+}
+
+.card{
+    border: none !important;
+    border-radius: 15px !important;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.btn:hover{
+background-color: white !important;
+color: black !important;
+}
+
+.footer{
+    bottom: 0;
+    margin-top: 40px;
+}
+
+.footer p{
+    background-color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+
+
+    
+ 
